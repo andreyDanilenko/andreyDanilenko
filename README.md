@@ -87,13 +87,6 @@ graph TD
 ![Pinia](https://img.shields.io/badge/Pinia-FFD859?style=for-the-badge&logo=pinia&logoColor=black)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
-**Функционал:**
-- Добавление/удаление учетных записей
-- Два типа записей: LDAP (без пароля) и Локальная (с паролем)
-- Валидация полей с визуальной индикацией ошибок
-- Поле "Метка" с парсингом строки в массив объектов
-- Сохранение состояния в Pinia с персистентностью
-
 **Репозиторий:** [account-manager](https://github.com/andreyDanilenko/account-manager)
 
 ---
@@ -108,16 +101,5 @@ graph TD
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=sequelize&logoColor=white)
 ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white)
-
-**Функционал:**
-- CRUD-операции для стикеров через REST API
-- Рассылка событий через WebSocket (socket.io) всем подключенным клиентам
-- Классовый стиль архитектуры
-- Docker-окружение для PostgreSQL и Redis
-- Semantic Commits, ESLint + Prettier
-
-**Дополнительные возможности:**
-- Аутентификация через JWT
-- Управление порядком элементов (слои)
 
 **Репозиторий:** [test_node_js](https://github.com/andreyDanilenko/test_node_js)
