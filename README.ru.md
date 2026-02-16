@@ -1,4 +1,4 @@
-## 🚀 Мои проекты
+## 🚀 Мои проекты [[EN]](https://github.com/andreyDanilenko/andreyDanilenko/blob/main/README.md)
 
 ---
 
