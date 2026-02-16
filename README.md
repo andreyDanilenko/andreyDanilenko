@@ -44,7 +44,7 @@ Docker-оркестрация для запуска всех проектов з
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 
-**Репозиторий:** [deployment-automation](https://github.com/andreyDanilenko/deployment-automation)
+**Репозиторий:** [deployment](https://github.com/andreyDanilenko/deployment-automation)
 
 ---
 
