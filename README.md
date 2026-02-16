@@ -2,7 +2,7 @@
 
 ---
 
-### 🌐 [lifedream.tech](https://lifedream.tech) — главный сайт
+### 🌐 [Articles](https://lifedream.tech) — главный сайт
 Статьи и тестовый чат. Монолитное приложение.
 
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
@@ -10,7 +10,7 @@
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
-**Репозиторий:** [github.com/andreyDanilenko/go-angular-pg](https://github.com/andreyDanilenko/go-angular-pg)
+**Репозиторий:** [go-angular-pg](https://github.com/andreyDanilenko/go-angular-pg)
 
 ---
 
@@ -23,7 +23,7 @@ ERP-система с первым модулем "Привычки". Отдел
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![Pinia](https://img.shields.io/badge/Pinia-FFD859?style=for-the-badge&logo=pinia&logoColor=black)
 
-**Репозиторий:** [github.com/andreyDanilenko/habits-client](https://github.com/andreyDanilenko/habits-client)
+**Репозиторий:** [habits-client](https://github.com/andreyDanilenko/habits-client)
 
 #### Бэкенд
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
@@ -31,7 +31,7 @@ ERP-система с первым модулем "Привычки". Отдел
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)
 
-**Репозиторий:** [github.com/andreyDanilenko/habits-api](https://github.com/andreyDanilenko/habits-api)
+**Репозиторий:** [habits-api](https://github.com/andreyDanilenko/habits-api)
 
 ---
 
@@ -55,4 +55,4 @@ Docker-оркестрация для запуска двух сайтов за �
 ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
 ![Element Plus](https://img.shields.io/badge/Element_Plus-409EFF?style=for-the-badge&logo=element&logoColor=white)
 
-**Репозиторий:** [https://github.com/andreyDanilenko/weather_vue]
+**Репозиторий:** [weather_vue](https://github.com/andreyDanilenko/weather_vue)
