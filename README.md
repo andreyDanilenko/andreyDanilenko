@@ -81,7 +81,7 @@ graph TD
 
 ---
 
-### 📁 [account-manager](https://github.com/andreyDanilenko/account-manager) — управление учетными записями
+### 📁 [account-manager](https://github.com/andreyDanilenko/test_vue) — управление учетными записями
 Тестовое задание: форма управления учетными записями с валидацией и сохранением в Pinia.
 
 ![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
@@ -96,4 +96,4 @@ graph TD
 - Поле "Метка" с парсингом строки в массив объектов
 - Сохранение состояния в Pinia с персистентностью
 
-**Репозиторий:** [account-manager](https://github.com/andreyDanilenko/account-manager)
+**Репозиторий:** [account-manager](https://github.com/andreyDanilenko/test_vue)
