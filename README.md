@@ -3,11 +3,12 @@
 ---
 
 ### 🌐 [Articles](https://lifedream.tech) — главный сайт
-Статьи и тестовый чат. Монолитное приложение.
+Статьи и тестовый чат. Монолитное приложение. **В разработке**
 
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![GORM](https://img.shields.io/badge/GORM-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
 **Репозиторий:** [go-angular-pg](https://github.com/andreyDanilenko/go-angular-pg)
@@ -15,13 +16,14 @@
 ---
 
 ### 📊 [Habits ERP](https://habits.lifedream.tech) — трекер привычек
-ERP-система с первым модулем "Привычки". Отдельные репозитории для фронтенда и бэкенда.
+ERP-система с первым модулем "Привычки". Отдельные репозитории для фронтенда и бэкенда. **В разработке**
 
 #### Фронтенд
 ![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![Pinia](https://img.shields.io/badge/Pinia-FFD859?style=for-the-badge&logo=pinia&logoColor=black)
+![FSD](https://img.shields.io/badge/FSD-2C2D72?style=for-the-badge&logo=featured&logoColor=white)
 
 **Репозиторий:** [habits-client](https://github.com/andreyDanilenko/habits-client)
 
@@ -35,19 +37,23 @@ ERP-система с первым модулем "Привычки". Отдел
 
 ---
 
-### 🐳 [deployment-automation](https://github.com/andreyDanilenko/deployment-automation) — деплой всех проектов
-Docker-оркестрация для запуска двух сайтов за одним Nginx. Автоматический деплой через GitHub Actions.
+### 🐳 [deployment-automation](https://github.com/andreyDanilenko/deployment-automation) — инфраструктура
+Docker-оркестрация для запуска всех проектов за одним Nginx. Автоматический деплой через GitHub Actions. Обеспечивает работу [lifedream.tech](https://lifedream.tech) и [habits.lifedream.tech](https://habits.lifedream.tech).
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 
-**Репозиторий:** [github.com/andreyDanilenko/deployment-automation](https://github.com/andreyDanilenko/deployment-automation)
+**Репозиторий:** [deployment-automation](https://github.com/andreyDanilenko/deployment-automation)
 
 ---
 
-### 📁 test_vue — погода (OpenWeatherMap)
-Тестовое приложение для демонстрации работы с API.
+## 🧪 Тестовые проекты
+
+---
+
+### 📁 [weather_vue](https://github.com/andreyDanilenko/weather_vue) — погода (OpenWeatherMap)
+Тестовое приложение для демонстрации работы с API. Погода по геолокации и поиск городов.
 
 ![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
@@ -56,3 +62,19 @@ Docker-оркестрация для запуска двух сайтов за �
 ![Element Plus](https://img.shields.io/badge/Element_Plus-409EFF?style=for-the-badge&logo=element&logoColor=white)
 
 **Репозиторий:** [weather_vue](https://github.com/andreyDanilenko/weather_vue)
+
+---
+
+## 🔗 Взаимосвязь проектов
+
+```mermaid
+graph TD
+    A[deployment-automation] --> B[go-angular-pg]
+    A --> C[habits-client]
+    A --> D[habits-api]
+    B --> E[lifedream.tech]
+    C --> F[habits.lifedream.tech]
+    D --> F
+```
+
+Все основные проекты разворачиваются через `deployment-automation` и работают в единой Docker-сети за общим Nginx.
