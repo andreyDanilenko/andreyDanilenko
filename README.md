@@ -77,11 +77,9 @@ graph TD
 
 **Репозиторий:** [weather_vue](https://github.com/andreyDanilenko/weather_vue)
 
-Вот обновленный раздел с тестовыми проектами, добавил новое задание:
-
 ---
 
-### 📁 [account-manager](https://github.com/andreyDanilenko/test_vue) — управление учетными записями
+### 📁 [account-manager](https://github.com/andreyDanilenko/account-manager) — управление учетными записями
 Тестовое задание: форма управления учетными записями с валидацией и сохранением в Pinia.
 
 ![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
@@ -96,4 +94,30 @@ graph TD
 - Поле "Метка" с парсингом строки в массив объектов
 - Сохранение состояния в Pinia с персистентностью
 
-**Репозиторий:** [account-manager](https://github.com/andreyDanilenko/test_vue)
+**Репозиторий:** [account-manager](https://github.com/andreyDanilenko/account-manager)
+
+---
+
+### 📁 [test_node_js](https://github.com/andreyDanilenko/test_node_js) — доска со стикерами (WebSocket + REST)
+Тестовое задание: прототип модуля для совместной работы на виртуальных досках.
+
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=sequelize&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white)
+
+**Функционал:**
+- CRUD-операции для стикеров через REST API
+- Рассылка событий через WebSocket (socket.io) всем подключенным клиентам
+- Классовый стиль архитектуры
+- Docker-окружение для PostgreSQL и Redis
+- Semantic Commits, ESLint + Prettier
+
+**Дополнительные возможности:**
+- Аутентификация через JWT
+- Управление порядком элементов (слои)
+
+**Репозиторий:** [test_node_js](https://github.com/andreyDanilenko/test_node_js)
