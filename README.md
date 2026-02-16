@@ -38,30 +38,13 @@ ERP-система с первым модулем "Привычки". Отдел
 ---
 
 ### 🐳 [deployment-automation](https://github.com/andreyDanilenko/deployment-automation) — инфраструктура
-Docker-оркестрация для запуска всех проектов за одним Nginx. Автоматический деплой через GitHub Actions. Обеспечивает работу [lifedream.tech](https://lifedream.tech) и [habits.lifedream.tech](https://habits.lifedream.tech).
+Docker-оркестрация для запуска всех проектов за одним Nginx. Автоматический деплой через GitHub Actions.
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 
-**Репозиторий:** [deployment](https://github.com/andreyDanilenko/deployment-automation)
-
----
-
-## 🧪 Тестовые проекты
-
----
-
-### 📁 [weather_vue](https://github.com/andreyDanilenko/weather_vue) — погода (OpenWeatherMap)
-Тестовое приложение для демонстрации работы с API. Погода по геолокации и поиск городов.
-
-![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
-![Element Plus](https://img.shields.io/badge/Element_Plus-409EFF?style=for-the-badge&logo=element&logoColor=white)
-
-**Репозиторий:** [weather_vue](https://github.com/andreyDanilenko/weather_vue)
+**Репозиторий:** [deployment-automation](https://github.com/andreyDanilenko/deployment-automation)
 
 ---
 
@@ -77,4 +60,40 @@ graph TD
     D --> F
 ```
 
-Все основные проекты разворачиваются через `deployment-automation` и работают в единой Docker-сети за общим Nginx.
+*Основные проекты разворачиваются через `deployment-automation` и работают в единой Docker-сети за общим Nginx.*
+
+---
+
+## 🧪 Тестовые проекты
+
+### 📁 [weather_vue](https://github.com/andreyDanilenko/weather_vue) — погода (OpenWeatherMap)
+Тестовое приложение для демонстрации работы с API.
+
+![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
+![Element Plus](https://img.shields.io/badge/Element_Plus-409EFF?style=for-the-badge&logo=element&logoColor=white)
+
+**Репозиторий:** [weather_vue](https://github.com/andreyDanilenko/weather_vue)
+
+Вот обновленный раздел с тестовыми проектами, добавил новое задание:
+
+---
+
+### 📁 [account-manager](https://github.com/andreyDanilenko/account-manager) — управление учетными записями
+Тестовое задание: форма управления учетными записями с валидацией и сохранением в Pinia.
+
+![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Pinia](https://img.shields.io/badge/Pinia-FFD859?style=for-the-badge&logo=pinia&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+
+**Функционал:**
+- Добавление/удаление учетных записей
+- Два типа записей: LDAP (без пароля) и Локальная (с паролем)
+- Валидация полей с визуальной индикацией ошибок
+- Поле "Метка" с парсингом строки в массив объектов
+- Сохранение состояния в Pinia с персистентностью
+
+**Репозиторий:** [account-manager](https://github.com/andreyDanilenko/account-manager)
