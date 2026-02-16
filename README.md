@@ -1,4 +1,4 @@
-## 🚀 My Projects [[RU]](https://github.com/andreyDanilenko/andreyDanilenko/edit/main/README.ru.md)
+## 🚀 My Projects [[RU]](https://github.com/andreyDanilenko/andreyDanilenko/blob/main/README.ru.md)
 
 ---
 
