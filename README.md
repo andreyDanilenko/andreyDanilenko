@@ -66,6 +66,23 @@ graph TD
 
 ## 🧪 Test Projects
 
+### 📁 [react_test](https://github.com/andreyDanilenko/react_test) — product catalog with filters
+Test assignment: product catalog with authorization, sorting, and cart.
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-764ABC?style=for-the-badge&logo=redux&logoColor=white)
+![RTK Query](https://img.shields.io/badge/RTK_Query-764ABC?style=for-the-badge&logo=redux&logoColor=white)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+**Stack:** React 19, TypeScript, Redux Toolkit + RTK Query, React Router v7, Tailwind CSS v4, Vite
+
+**Repository:** [react_test](https://github.com/andreyDanilenko/react_test)
+
+---
+
 ### 📁 [weather_vue](https://github.com/andreyDanilenko/weather_vue) — weather (OpenWeatherMap)
 Test application demonstrating API integration.
 
@@ -99,7 +116,6 @@ Test assignment: prototype module for real-time collaborative virtual boards.
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=sequelize&logoColor=white)
 ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white)
 
 **Repository:** [test_node_js](https://github.com/andreyDanilenko/test_node_js)
