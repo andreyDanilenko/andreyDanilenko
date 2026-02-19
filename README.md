@@ -76,8 +76,9 @@ Test assignment: product catalog with authorization, sorting, and cart.
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![FSD](https://img.shields.io/badge/FSD-2C2D72?style=for-the-badge&logo=featured&logoColor=white)
 
-**Stack:** React 19, TypeScript, Redux Toolkit + RTK Query, React Router v7, Tailwind CSS v4, Vite
+**Stack:** React 19, TypeScript, Redux Toolkit + RTK Query, React Router v7, Tailwind CSS v4, Vite, FSD
 
 **Repository:** [react_test](https://github.com/andreyDanilenko/react_test)
 
