@@ -33,8 +33,6 @@ ERP system with the first module "Habits". Separate repositories for frontend an
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)
 
-**Repository:** [habits-api](https://github.com/andreyDanilenko/habits-api)
-
 ---
 
 ### 🐳 [deployment-automation](https://github.com/andreyDanilenko/deployment-automation) — infrastructure
